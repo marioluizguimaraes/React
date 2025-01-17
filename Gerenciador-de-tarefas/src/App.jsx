@@ -1,5 +1,6 @@
 import { useState } from "react"
-import Tasks  from "./components/Tasks"
+import Tasks  from "./components/Tasks/Tasks"
+import AddTasks from "./components/AddTasks/AddTasks"
 
 export default function App(){
 
@@ -7,6 +8,7 @@ export default function App(){
     <div>
       <h1>Gerenciador de Tarefas</h1>
       <Tasks/>
+      <AddTasks/>
     </div>
   )
 }
